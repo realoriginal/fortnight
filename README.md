@@ -1,6 +1,6 @@
-# Fornight
+# Fortnight
 
-Fornight is a personal Minecraft 1.21.1 modpack for occasional late-night shenanigans with my partner. It runs on NeoForge and aims to expand the vanilla experience with extra content, performance fixes, and quality-of-life improvements.
+Fortnight is a personal Minecraft 1.21.1 modpack for occasional late-night shenanigans with my partner. It runs on NeoForge and aims to expand the vanilla experience with extra content, performance fixes, and quality-of-life improvements.
 
 I distribute the pack through [packwiz](https://packwiz.infra.link/), using [`pack.toml`](pack.toml) as the manifest. See the [packwiz installation guide](https://packwiz.infra.link/tutorials/installing/packwiz-installer/) for setup instructions.
 
