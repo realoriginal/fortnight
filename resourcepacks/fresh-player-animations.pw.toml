@@ -1,0 +1,13 @@
+name = "Trailer Player Animations"
+filename = "TrailerPlayerAnimations_v0.6.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uYE6VsYf/versions/BQpN3Nhg/TrailerPlayerAnimations_v0.6.zip"
+hash-format = "sha512"
+hash = "1fea34e2d88e4fbade2842ffe64653bb00295620b752ca919ce945839293d93989406fe48b96852093d910532372bbd73c1eb0f3026b0071a7623b9531df0765"
+
+[update]
+[update.modrinth]
+mod-id = "uYE6VsYf"
+version = "BQpN3Nhg"
