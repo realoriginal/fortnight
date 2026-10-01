@@ -1,0 +1,5 @@
+# Release tooling does not belong in the installed modpack.
+.github/
+
+mise.toml
+mise.lock

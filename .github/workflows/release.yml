@@ -1,0 +1,49 @@
+name: Release modpack
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.event.release.id }}
+  cancel-in-progress: false
+
+jobs:
+  export:
+    # Skip private repositories to avoid runner charges.
+    if: github.event.repository.visibility == 'public'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out release
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Install mise and packwiz
+        uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3.6.3
+        with:
+          cache: false
+
+      - name: Export mrpack
+        env:
+          MRPACK: ${{ runner.temp }}/Fortnight.mrpack
+        run: >-
+          mise exec -- packwiz modrinth export
+          --output "$MRPACK"
+          --cache "${{ runner.temp }}/packwiz-cache"
+          --yes
+
+      - name: Upload release asset
+        env:
+          MRPACK: ${{ runner.temp }}/Fortnight.mrpack
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: gh release upload "$RELEASE_TAG" "$MRPACK" --clobber
