@@ -39,6 +39,16 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "5ca02772cc6951185af8eb07ded5c7310c80f71498c5c513b1a8d5bd126822a9"
+metafile = true
+
+[[files]]
+file = "mods/compact-additions.pw.toml"
+hash = "f133ad50b9e2dad1c7a6b49c1e9d2220f783fde842f9227877fba6c276a01baa"
+metafile = true
+
+[[files]]
 file = "mods/connector.pw.toml"
 hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
 metafile = true
@@ -61,6 +71,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
 hash = "210419599e24212d879f58d0b3bacb74dec6d64703f49f1c547440bf7705e942"
+metafile = true
+
+[[files]]
+file = "mods/create-compact-flap.pw.toml"
+hash = "8357524fb98d75ce1c11e1385744c1e4897ac0551c81f60ae437e5a52ed8d995"
 metafile = true
 
 [[files]]
@@ -149,6 +164,11 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
+file = "mods/lithium.pw.toml"
+hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
+metafile = true
+
+[[files]]
 file = "mods/lithosphere.pw.toml"
 hash = "4a2b992577d6f41f981f3d2e12b13a1a0d5a8d252fed3c325f8b9443dc8ba33e"
 metafile = true
@@ -179,11 +199,6 @@ hash = "00887452f4c902a5f98fc42875d522e59948b60c20d887855a183c0f7235c641"
 metafile = true
 
 [[files]]
-file = "mods/sable-ragdolls.pw.toml"
-hash = "bf3c84eff52457596d58a73882e72759804117f0731a0fde343cfd54d33e55ba"
-metafile = true
-
-[[files]]
 file = "mods/sable.pw.toml"
 hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
 metafile = true
@@ -211,6 +226,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
+hash = "d5837bde6e12926d8649f6caaadf68a6f80e060ac164348d7ec5ec6555817165"
 metafile = true
 
 [[files]]
