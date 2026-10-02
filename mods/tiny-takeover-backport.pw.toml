@@ -1,0 +1,13 @@
+name = "Tiny Takeover Backport"
+filename = "tiny_takeover_backport-neoforge-1.21.1-1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F4TmfqsY/versions/TNwqdYgL/tiny_takeover_backport-neoforge-1.21.1-1.5.1.jar"
+hash-format = "sha512"
+hash = "b5afa0b46b5ae7b734396a9e91b48e23f23f6a1166649d688a7ea3ac973ede82b10faebc608ca3b927a5c3b0c9685f5093eba795814af22bfc74639bba0e3b92"
+
+[update]
+[update.modrinth]
+mod-id = "F4TmfqsY"
+version = "TNwqdYgL"
