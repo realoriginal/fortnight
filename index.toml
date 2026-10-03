@@ -234,6 +234,11 @@ hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
+file = "mods/still-life-restoned.pw.toml"
+hash = "2e3845c05c03c6e6112da1fcbf8ef5eb0684c44c5df67be481765ef17eb78d7f"
+metafile = true
+
+[[files]]
 file = "mods/still-life.pw.toml"
 hash = "10abaaacef70467dc09b62aa2f28cc2242be181d3cd9f585d1c0383d38eb87b8"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Still Life Restoned"
+filename = "still_life_restoned.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/md7dxO9G/versions/ERrQh2Ar/still_life_restoned.jar"
+hash-format = "sha512"
+hash = "51bde4a87e0c0ffa98a3d22b436405418f12bc8eb90d0bfaa32c14e9843628944432775002af7e93c30ac72fc6eb83b777309d6e0dedbdc6b43e8beacd2fdf3d"
+
+[update]
+[update.modrinth]
+mod-id = "md7dxO9G"
+version = "ERrQh2Ar"
