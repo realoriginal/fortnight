@@ -1,0 +1,13 @@
+name = "Still Life Restoned"
+filename = "still_life_restoned-1.2.0-neoforge-1.21.1-26.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/md7dxO9G/versions/iE40swA5/still_life_restoned-1.2.0-neoforge-1.21.1-26.3.jar"
+hash-format = "sha512"
+hash = "ea5eda091ccd94285d3c31582bd36a0d40a2701210d313be136565ab8835e142419f98d8b857a69c2736cea6479cafbd57c317b237c2c0506f83d065a86f5765"
+
+[update]
+[update.modrinth]
+mod-id = "md7dxO9G"
+version = "iE40swA5"
